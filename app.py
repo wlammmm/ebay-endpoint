@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 # Paste your eBay verification token here
 # (the one you made up earlier in the eBay developer portal)
-VERIFICATION_TOKEN = "YOUR-VERIFICATION-TOKEN-HERE"
-ENDPOINT_URL = "https://YOUR-RENDER-URL-HERE.onrender.com/ebay"
+VERIFICATION_TOKEN = "ebayebayebayebayebayebayebayebay"
+ENDPOINT_URL = "https://ebay-endpoint-3rr9.onrender.com/ebay"
 
 @app.route("/ebay", methods=["GET", "POST"])
 def ebay_endpoint():
